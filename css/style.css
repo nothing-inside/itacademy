@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.student-name {
+    text-align: center;
+}
+
+.bgcolor-velvet {
+    background-color: rgb(241, 202, 241);
+}
+
+.italic {
+font-style: italic;
+}
+
+.title {
+    background-color: darkgray;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.page {
+    background-color:lightblue;
+}
+
+.second {
+    background-color: palegreen;
+}
+
+.third {
+    font-style: oblique;
+}
+
+.first, .first a {
+    color: rgb(255, 0, 13);
+}
+
+.copy {
+    background-color: lightpink;
+}
+.copy a {
+    color: red;
+}
