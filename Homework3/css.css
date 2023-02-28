@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.title {
+    color: darkred;
+    text-align: center;
+    line-height: 5px;
+    border-bottom: 3px double gray;
+}
+
+.name {
+    font-family: 'Phudu', cursive, sans-serif;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+}
+
+.indent {
+    text-indent: 1cm;
+    max-width: 30%;
+    margin: 20px 40px;
+    
+}
+
+.bgcolor {
+    background-color: rgb(226, 252, 255);
+    display: flex;
+}
+
+.roboto {
+    font-family: 'Roboto', serif, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.princ {
+    color: darkblue;
+}
+
+.noto {
+    font-family: 'Noto Sans', sans-serif, serif;
+    word-spacing: 30px;
+    border: 2px dashed darkgrey;
+    margin: 5px 0;
+}
+
+.oblique {
+    font-style: oblique;
+    line-height: 200%;
+}
+
+.bold {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.color {
+    color: rgb(138, 11, 150);
+    border: 2px dotted rosybrown;
+    margin: 5px 0;
+}
+
+.author {
+    font-weight: 700;
+    font-style: italic;
+    border-style: solid;
+    border-color:rgb(48, 47, 47) blue purple pink;
+    width: 250px;
+   margin-left: 2%;
+}
+
+.disp {
+    display: flex;
+}
