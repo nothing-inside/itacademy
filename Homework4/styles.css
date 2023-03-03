@@ -1,0 +1,60 @@
+.text {
+    font-size: xx-large;
+    font-weight: 600px;
+    padding: 70px;
+}
+
+.mid-vertical-left {
+    background-image: url('ramka-mid-vertical.png');
+    background-repeat: repeat-y;
+    display: inline-block;
+    background-position: left;
+}
+
+
+.mid-vertical-right {
+    background-image: url('ramka-mid-vertical-right.png');
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.top-mid-hor {
+    background-image: url('ramka-top-mid-hor.png');
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.bottom-mid-hor {
+    background-image: url('ramka-bottom-mid-hor.png');
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.left-corner-top {
+    background-image: url('ramka-left-corner-top.png');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+}
+
+.left-corner-bottom {
+
+    background-image: url('ramka-left-corner-bottom.png');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+}
+
+.right-corner-top {
+    background-image: url('ramka-right-corner-top.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.right-corner-bottom {
+    background-image: url('ramka-right-corner-bottom.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
