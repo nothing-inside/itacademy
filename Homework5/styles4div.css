@@ -1,0 +1,66 @@
+.title {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(140, 203, 231);
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+    margin: 0;
+}
+
+.column1 {
+    width: 500px;
+    background-color: khaki;
+    text-align: left;
+    padding-left: 10px;
+}
+
+a {
+    color: blue;
+    vertical-align: middle;
+
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+}
+
+.column3 {
+  width: auto;
+    display: block;
+    margin: 15px;
+}
+ 
+table {
+    border-spacing: 0px;
+}
+
+.list {
+    padding-inline-start: 15px;
+    font-weight: 400;
+}
+
+.marg {
+    margin-top: 15px;
+}
+.text {
+    font-weight: 400;
+    text-align: left;
+    font-size: 24px;
+}
+.title-football {
+    margin-top: 0;
+    text-align: center;
+}
+.background {
+    background-image: url(ball3.png);
+    background-position: right;
+    background-repeat: repeat-y;
+    background-size: 50px;
+opacity: 0.5;
+}
+
+.disp {
+    display: flex;
+}
