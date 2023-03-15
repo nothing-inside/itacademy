@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Тег а строчный, поэтому ссылки расположены в строку. Разделители установлены с помощью border-right с применением last-child (разделитель для всех кроме последней ссылки) -->
+    <div class="last-child">
+        <a href=''>первая ссылка</a>
+        <a href=''>вторая ссылка</a>
+        <a href=''>третья ссылка</a>
+        <a href=''>четвёртая ссылка</a>
+        <a href="">пятая ссылка</a>
+    </div>
+    <br>
+    <!-- Тег а строчный, поэтому ссылки расположены в строку. Разделители установлены с помощью border-left с применением first-child (разделитель для всех кроме первой ссылки) -->
+    <div class="first-child">
+        <a href=''>первая ссылка</a>
+        <a href=''>вторая ссылка</a>
+        <a href=''>третья ссылка</a>
+        <a href=''>четвёртая ссылка</a>
+        <a href="">пятая ссылка</a>
+    </div>
+    <br>
+     <!-- Применяется display:flex, поэтому ссылки расположены в строку. Разделители установлены с помощью background с применением after (разделитель для всех кроме последней ссылки) -->
+     <div class="after">
+        <a href=''>первая ссылка</a>
+        <a href=''>вторая ссылка</a>
+        <a href=''>третья ссылка</a>
+        <a href=''>четвёртая ссылка</a>
+        <a href="">пятая ссылка</a>
+    </div>
+    <br>
+    <!-- Применяется display:flex, поэтому ссылки расположены в строку. Разделители установлены с помощью background с применением before (разделитель для всех кроме первой ссылки) -->
+    <div class="before">
+       <a href=''>первая ссылка</a>
+       <a href=''>вторая ссылка</a>
+       <a href=''>третья ссылка</a>
+       <a href=''>четвёртая ссылка</a>
+       <a href="">пятая ссылка</a>
+   </div>
+</body>
+
+</html>
