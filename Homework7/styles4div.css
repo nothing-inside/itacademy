@@ -1,0 +1,97 @@
+h3{
+    padding-top: 10px;
+}
+.title {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(140, 203, 231);
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+    margin: 0;
+}
+
+.column1 {
+    min-width: 150px;
+    background-color: khaki;
+    text-align: left;
+    padding-left: 10px;
+}
+
+a {
+    color: blue;
+    vertical-align: middle;
+
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+}
+
+.column3 {
+    width: auto;
+    display: block;
+    padding-left: 10px;
+    height: 100%;
+    position: relative;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.list {
+    padding-inline-start: 15px;
+    font-weight: 400;
+    width: 100px;
+}
+
+.marg {
+    margin-top: 15px;
+}
+
+.text {
+    font-weight: 400;
+    text-align: left;
+    font-size: 24px;
+}
+
+.title-football {
+    margin-top: 0;
+    text-align: center;
+}
+
+.background {
+    background-image: url(ball3.png);
+    background-position: right;
+    background-repeat: repeat-y;
+    background-size: 50px;
+    opacity: 0.5;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.disp {
+    display: flex;
+}
+
+@media all and (max-width: 580px)
+{
+    .background
+    {background-image: none;}
+
+    img {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .column3 {
+       padding: 5px;
+    }
+   .column1 {
+    min-width: 116px;
+   }
+}
