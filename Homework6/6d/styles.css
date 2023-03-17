@@ -1,0 +1,14 @@
+.background {
+    background-image: url(star1.png);
+    width: 75px;
+    height: 77px;
+   
+}
+
+.display {
+    display: flex;
+}
+
+.background:hover ~ .background {
+    background-image: url(star0.png);
+}
