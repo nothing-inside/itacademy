@@ -1,0 +1,46 @@
+.padd {
+    padding: 10px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.disp-inline {
+    display: inline-block;
+}
+
+.label {
+    width: 15%;
+    display: block;
+    float: left;
+    min-width: max-content;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.fl-left {
+    float: left;
+}
+
+input, textarea {
+    box-sizing: border-box;
+}
+
+.marg {
+    margin-right: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+input[type="radio"] {
+    margin: 0px 5px 0px 0px;
+}
+@media screen and (max-width:780px) {
+    .w-mob-100{
+        width: 100%;
+    }
+}

@@ -1,0 +1,30 @@
+
+.position:hover {
+z-index: 2;
+}
+
+.position {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.relative{
+    position: relative;
+    height: 400px;
+}
+.pic1 {
+    left: 490px;
+
+}
+.pic2 {
+    left: 690px;
+}
+.pic3 {
+    left: 583px;
+    top: 180px;
+}
+.pic4 {
+    left: 580px;
+    top: 100px;
+}
