@@ -1,0 +1,143 @@
+.main {
+    display: grid;
+    grid-template-columns: 160px;
+    grid-template-rows: 60px 1fr 60px;
+    grid-column-gap: 10px;
+}
+
+.main .title-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(140, 203, 231);
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+    margin: 0;
+    grid-column: 1 / span 3;
+}
+
+.main .title-top {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(140, 203, 231);
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+    margin: 0;
+    grid-column: 1 / span 3;
+}
+
+.main .menu {
+    background-color: khaki;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.main .list {
+    padding-inline-start: 15px;
+    font-weight: 400;
+    width: 100px;
+}
+
+.main .info {
+    grid-column: 2 / span 2;
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    grid-template-columns: 1fr 55px;
+    position: relative;
+}
+
+.main .info .title {
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.main .info .title .title-football {
+    margin: 0;
+}
+
+.main .info .text-1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* grid-template-columns: 200px 1fr; */
+    /* grid-template-rows: 130px 0px; */
+}
+
+.main .info .text {
+    font-weight: 400;
+    text-align: left;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.main .text-1 img {
+    float: left;
+    margin-right: 10px;
+}
+
+.main .info .background {
+    display: grid;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    background-image: url(ball3.png);
+    background-position: right;
+    background-repeat: repeat-y;
+    background-size: 50px;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media all and (max-width: 580px) {
+    .main .menu {
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-end: 4;
+        grid-column-start: 1;
+        display: grid;
+        background: none;
+    }
+
+    .main .menu ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .main .menu ul li {
+        list-style-type: none;
+    }
+
+    .main .list a {
+        font-size: 20px;
+    }
+
+    .main .info {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-template-columns: 1fr
+    }
+
+    .main .text-1 img {
+        float: none;
+        width: 100%;
+    }
+
+    .main .info .background {
+        display: none;
+    }
+
+    .main .list {
+        display: grid;
+        width: 100%;
+        padding-inline-start: 0px;
+        grid-template-columns: minmax(50px, max-content) repeat(auto-fill, 190px) 30%;
+        grid-column-gap: 5px;
+        justify-items: center;
+        grid-row-gap: 5px;
+    }
+}

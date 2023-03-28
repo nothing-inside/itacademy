@@ -1,0 +1,13 @@
+.full {
+    display: block;
+}
+
+.rect:hover {
+ fill:lime; 
+ width: 100px;
+height: 100px;
+}
+
+.path:hover {
+stroke:orangered;
+}
