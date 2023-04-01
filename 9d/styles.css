@@ -1,0 +1,142 @@
+@keyframes Animation1
+{
+    from { background-color:darkorange; }
+    to { background-color:darkorchid; }
+}
+
+.Animation1
+{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    animation: Animation1 2s infinite;
+}
+
+@keyframes Animation2
+{
+    from { background-color:fuchsia }
+    25% { background-color: greenyellow;
+         color: red }
+    50% { background-color: yellow;
+            color:blue }
+    75% { background-color: rgba(255, 187, 0, 0.87);
+                color: rgb(233, 194, 233)}
+    to { background-color:gold }
+}
+
+.Animation2
+{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    animation: Animation2 3s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+}
+
+p {
+    width: 30%;
+}
+
+.text {
+    background-color: blueviolet;
+    color: bisque;
+    padding: 5px;
+    text-align: center;
+}
+
+.text:hover {
+    background-color: chocolate;
+    color:blueviolet;
+}
+
+.text2 {
+    background-color:crimson;
+    color: bisque;
+    padding: 5px;
+    text-align: center;
+    transition-duration: 2s;
+}
+
+.text2:hover {
+    background-color:chartreuse;
+    color:blueviolet;
+}
+
+
+
+.disp {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    margin-top: 50px;
+}
+.disp:hover > .size{
+    transform: scale(1.8);
+}
+.disp:hover > .bg-col{
+    
+    -webkit-animation: color-change-3x 2s linear infinite alternate both;
+	        animation: color-change-3x 2s linear infinite alternate both;
+}
+img {
+    width: 150px;
+    height: 150px;
+    margin: 0 50px;
+  }
+
+@-webkit-keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+  .rotate{
+	-webkit-animation: rotate-center 2s linear infinite both;
+	        animation: rotate-center 2s linear infinite both;
+            width: 200px;         
+            margin-right: 50px;
+            
+}
+  
+@-webkit-keyframes color-change-3x {
+    0% {
+      background: #19dcea;
+    }
+    50% {
+      background: #b22cff;
+    }
+    100% {
+      background: #ea2222;
+    }
+  }
+  @keyframes color-change-3x {
+    0% {
+      background: #19dcea;
+    }
+    50% {
+      background: #b22cff;
+    }
+    100% {
+      background: #ea2222;
+    }
+  }
+
+
+    
+
