@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let famStr = prompt('Фамилия:');
+        let nameStr = prompt('Имя');
+        let otchStr = prompt('Отчество');
+        let string1 = 'Ваше ФИО: ' + famStr + ' ' + nameStr + ' ' + otchStr + "\n";
+
+        let ageStr = prompt('Возраст');
+        let age = parseInt(ageStr);
+        let string2 = 'Ваш возраст в годах: ' + ageStr + "\n";
+        let string3 = 'Ваш возраст в днях: ' + (age * 365) + "\n";
+        let string4 = 'Через 5 лет вам будет: ' + (age + 5) + "\n";
+
+        let genderAsnwer = confirm('Ваш пол - мужской?');
+        let pensia;
+        let gender;
+        (genderAsnwer === true) ? (
+            gender = 'мужской',
+            (age >= 63) ? pensia = 'да' : pensia = 'нет'
+        ) : (
+            gender = 'женский'
+                (age >= 58) ? pensia = 'да' : pensia = 'нет'
+        )
+        let string5 = 'Ваш пол: ' + gender + "\n";
+        let string6 = 'Вы на пенсии: ' + pensia + "\n";
+        alert(string1 + string2 + string3 + string4 + string5 + string6)
+    </script>
+</body>
+
+</html>
