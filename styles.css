@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("fonts/Gilroy-Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("fonts/Gilroy-Medium.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.size {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.border {
+    border-bottom: 1px solid #828282;
+}
+
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.menu-item {
+    font-size: 18px;
+    font-family: 'Gilroy-Bold', serif, sans-serif;
+    text-decoration: none;
+    color: #828282;
+}
+
+.menu-item.active {
+    color: #070707;
+}
+
+.name {
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+}
+
+.job {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.lang {
+    height: max-content;
+    color: #828282;
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    transform: rotate(-90deg);
+    transform-origin: bottom right;
+    display: flex;
+    align-items: end;
+}
+
+.lang .eng {
+    color: #070707;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+   margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 100%;    
+}
+
+.home {
+    margin-bottom: 100px;
+}
+
+.about {
+    font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.topic {
+    font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+}
+
+.topic div:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.aboutMe {
+    background-color: #F6F6F6;
+    
+}
+
+.padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
