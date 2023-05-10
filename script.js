@@ -8,7 +8,7 @@ let r = (temp * 9/5) + 32;
 }
 function getTempFaregeit(temp) {
 let r = (temp - 32) * 5/9;
-    result.innerHTML = temp+" \xB0F is " + r + " \xB0C"
+    result.innerHTML = temp+" \xB0C is " + r + " \xB0F"
 }
 buttonC.addEventListener('click', function() {
   getTempCelsia(temp.value)
