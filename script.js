@@ -1,4 +1,3 @@
-let button = document.getElementById('temp')
 let buttonC = document.getElementById('tempC')
 let buttonF = document.getElementById('tempF')
 let result = document.getElementById('result')
