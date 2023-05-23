@@ -1,0 +1,498 @@
+@media screen and (max-width: 1024px) {
+    .header-mob {
+        display: none !important;
+    }
+
+    .header-desktop {
+        display: flex !important;
+    }
+
+    .menu-mob {
+        display: none !important;
+    }
+
+    .container {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+
+    .sub-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .header-container {
+        padding: 10px 40px 30px 40px;
+    }
+
+    .header-menu-item .header-menu-item__title {
+        font-size: 8px;
+        line-height: 11px;
+    }
+
+    .header-logo {
+        width: 10%;
+    }
+
+    .phone-info__title {
+        padding: 10px 20px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .lang-item {
+        width: 20px;
+        height: 20px;
+    }
+
+    .lang-item .lang-item__title {
+        font-size: 9px;
+        line-height: 9px;
+    }
+
+    .header-menu-list {
+        padding: 10px 30px;
+    }
+
+    .section-1 {
+        margin-bottom: 60px;
+        height: unset;
+    }
+
+    .section-1 .slider-item__description .text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .section-1 .order-button .order-button__text {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .section-1 .order-button {
+        width: unset;
+        height: unset;
+        padding: 10px 30px;
+    }
+
+    .section-2 {
+        margin-bottom: 50px;
+    }
+
+    .section-2 .progress-list {
+        height: 120px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .section-2 .progress-item {
+        width: 14%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .section-2 .progress-item:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .section-2 .progress-item__description {
+        font-size: 7px;
+        line-height: 9px;
+    }
+
+    .section-2 .progress-item__icon {
+        height: 60px;
+    }
+
+    .section-3 .tab-wrapper {
+        margin-bottom: 50px;
+    }
+
+    .section-3 .tab-item .tab-item__title {
+        padding: 10px 0px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .section-3 .program-item .program-item__title {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .section-3 .program-item .program-item__subtitle {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .section-3 .week-item {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .section-3 .week-list {
+        padding: 10px 30px;
+    }
+
+    .section-3 .info-item__active-title {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    .section-3 .info-item__active-subtitle {
+        margin-left: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .section-3 .info-item__active-desc {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .section-3 .info-item__active-description {
+        padding: 20px 30px;
+    }
+
+    .section-3 .info-item__day-title, .section-3 .info-item__day-old-price, .section-3 .info-item__day-price {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .section-3 .week-info-list .week-info-item__title {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .section-3 .week-info-list {
+        display: grid !important;
+    }
+
+    .section-3 .week-info-list .week-info-item__subtitle {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .section-3 .week-info-list .week-info-item:not(:last-child) {
+        min-height: 60px;
+    }
+
+    .section-3 .order-button .order-button__text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .section-3 .order-button {
+        width: 160px;
+        height: 35px;
+    }
+
+    .section-3 .program-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .section-3 .info-item__rasp {
+        margin-bottom: 30px;
+    }
+
+    .section-3 .info-item__active {
+        margin-bottom: 30px;
+    }
+
+    .section-3 .info-wrapper {
+        margin-bottom: 75px;
+    }
+
+    .section-4 {
+        margin-bottom: 100px;
+    }
+
+    .section-4 .slider-bludo-title {
+        margin-bottom: 30px;
+    }
+
+    .section-5 .feedback-title {
+        font-size: 25px;
+        line-height: 28px
+    }
+
+    .section-5 .feedback-subtitle {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .section-5 .feedback-wrapper {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .section-5 .faq-wrapper {
+        width: 100%;
+    }
+
+    .footer-wrapper .bottom-menu-list .bottom-menu-item .bottom-menu-item__link {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer-wrapper .container .bottom-social-item .bottom-social-item__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer-wrapper .container .bottom-social-item .bottom-phone {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .footer-wrapper .bottom-logo-wrapper .bottom-logo-title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer-wrapper .bottom-logo-wrapper .buttom-logo-img {
+        height: 120px;
+    }
+
+    .blog .sections-item {
+        width: 50% !important;
+    }
+
+    .blog .list-sections-wrapper {
+        margin: 30px 0px !important;
+    }
+
+    .blog.sections .container {
+        padding: 0px 40px !important;
+    }
+
+    .blog .navigation-list .nav-item {
+        width: 22px !important;
+        height: 22px !important;
+    }
+
+    .blog .navigation-list .nav-item {
+        font-size: 12px !important;
+        line-height: 15px !important;
+    }
+
+    .blog .sections-item-title {
+        font-size: 14px !important;
+        line-height: 16px !important;
+    }
+
+    .blog .sub-info-date, .sub-info-button a {
+        font-size: 10px !important;
+        line-height: 13px !important;
+    }
+
+    .blog .sub-info-button {
+        padding: 5px 15px !important;
+    }
+
+    .gastro-shop .sections-item-title {
+
+        font-size: 12px !important;
+        line-height: 13px !important;
+    }
+
+    .gastro-shop .sub-info-button-wrapper a {
+        font-size: 7px !important;
+        line-height: 9px !important;
+    }
+
+    .gastro-shop .sub-info-button {
+        padding: 5px 10px !important;
+    }
+
+    .banner-wrapper {
+        background-image: url("../images/banner-table.png");
+    }
+
+    .banner-container {
+        padding: 30px 5%;
+    }
+
+    .banner-title {
+        font-size: 20px;
+        line-height: 133.8%;
+    }
+
+    .banner-subtitle {
+        font-size: 12px;
+        line-height: 133.8%;
+    }
+
+    .back-link-wrapper {
+        margin-bottom: 35px;
+    }
+
+    .catalog-title {
+        font-size: 10px;
+        line-height: 11px;
+        margin-bottom: 10px;
+    }
+
+    .catalog-subtitle {
+        font-size: 8px;
+        line-height: 11px;
+        margin-bottom: 10px;
+    }
+
+    .catalog-list-subinfo .catalog-item-subinfo {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .catalog-img {
+        margin-bottom: 15px;
+    }
+
+    .catalog-item {
+        margin-bottom: 40px;
+    }
+
+    .catalog-container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .catalog-info {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .lunch-title {
+        font-size: 10px;
+        line-height: 11px;
+        margin-bottom: 10px;
+    }
+
+    .lunch-subtitle {
+        font-size: 8px;
+        line-height: 11px;
+        margin-bottom: 10px;
+    }
+
+    .lunch-list-subinfo .lunch-item-subinfo {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .lunch-img {
+        margin-bottom: 15px;
+    }
+
+    .lunch-item {
+        margin-bottom: 40px;
+    }
+
+    .lunch-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .back-link-arrow {
+        width: 22px;
+        height: 22px;
+    }
+
+    .back-link-title {
+
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .lunch-info {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .lunch-name {
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 11px;
+
+        color: #020202;
+    }
+
+    .lunch-subinfo-element {
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 133.8%;
+        /* or 13px */
+
+        letter-spacing: 0.025em;
+
+        color: #64D370;
+    }
+
+    .faq-title {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    .faq-item__title {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .week-info-list-mob {
+        display: none !important;
+    }
+
+    .price {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .slider-bludo-title {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    .history-wrapper .history-item-info .history-info-title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .history-wrapper .history-item-info .history-info-text {
+        font-size: 12px;
+        line-height: 13px;
+
+    }
+
+    .history-wrapper .history-item-info .history-info-subtext {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .history-info-text.bold{
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .history {
+        margin-bottom: 60px;
+    }
+    .history.second {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 781px) {
+
+
+    .section-4 .slider-bludo {
+        display: none !important;
+    }
+
+    .section-4 .slider-bludo-mob {
+        display: none !important;
+    }
+
+    .section-4 .slider-bludo-table {
+        display: block !important;
+    }
+}
